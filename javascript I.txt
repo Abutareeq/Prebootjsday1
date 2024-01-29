@@ -1,0 +1,185 @@
+// console.log("Hello World")
+// console.log("Welcome","to","Guvi")
+
+//Variables
+// var a = 10
+// var b = 51
+// console.log(a+b)
+
+//Datatypes
+//1. Number - Integer(100,30,-10) and Float(2.212,3.14)
+//2. String - Any character under ' ' or " "
+//3. Boolean - true or false
+//4. Objects - [ ],{ }
+
+// var a = 10
+// var b = "Hello"
+// var c = true
+
+// console.log(typeof(a),typeof(b),typeof(c))
+
+
+//Operators
+//1. Arithmetic Operators -> +,-,*,/,%,**
+// var a = "10"
+// var b = "4.24"
+// console.log(a/b)
+// console.log(a%b)
+// console.log(a**b)
+
+// console.log(a+b)
+
+//type casting - convert from one datatype to other
+// var c = parseInt(a)
+// var d = parseFloat(b)
+// var c = Number(a)
+// var d = Number(b)
+// console.log(c+d)
+
+// var a = 22/7
+// console.log(a.toFixed(3))
+
+//Logical Operator - &&, ||, !
+
+// input1   input2      &&      ||
+//  true    true        true    true
+//  true    false       false   true
+//  false   true        false   true
+//  false   false       false   false
+
+// !true ->false
+// !false ->true
+
+// console.log(!false)
+
+
+//Comparison Operator <,>,<=,>=,==, ===, !=, !==
+
+// ==, != - will check the equality of values
+// ===, !== - will check the equality of values and dam
+
+
+// var a = 10
+// var b = "10"
+// console.log(a!==b)
+
+//Increment and Decrement Operator ++, --
+// var a = 10
+// a-- //a=a+1
+// console.log(a)
+
+// POST - use first and  update
+// PRE - update first and use
+// var a = 10
+// console.log(a++,a)
+
+// var a = 20
+// console.log(a++,a--,a++,++a)
+//          20  21  20  22
+//a = 22
+
+// var a = 10
+// console.log(a++,++a,++a,a--,--a,a--)
+//          10  12  13  13  11  11
+//a = 10
+
+//Decision Making Statements
+// if(condition)
+// {
+//     //if part
+// }
+// else if(condtion)
+// {
+//     //else if part
+// }
+// else
+// {
+//     //else
+// }
+
+//1. Find the greatest of 2 numbers
+// var a = 10
+// var b = 10
+
+// if(a>b)
+// {
+//     console.log(a+" is greater")
+// }
+// else if(b>a)
+// {
+//     console.log(b+" is greater")
+// }
+// else
+// {
+//     console.log("Both are equall")
+// }
+
+//2. Find the greatest of 3 numbers
+// var a = 10
+// var b = 10
+// var c = 8
+ 
+// if(a>b && a>c)
+// {
+//     console.log(a+" is greater")
+// }
+// else if(b>a && b>c)
+// {
+//     console.log(b+" is greater")
+// }
+// else if(c>a && c>b)
+// {
+//     console.log(c+" is greater")
+// }
+// else if(a === b && b === c)
+// {
+//     console.log("All are equall")
+// }
+// else
+// {
+//     console.log("Can not be determined")
+// }
+
+// if(a>b)
+// {
+//     if(a>c)
+//     {
+//         console.log(a+" is greater")
+//     }
+// }
+
+
+//Looping Statements
+//1. for
+//2. while
+//3. do while
+
+    //1                 2       4
+// for(initialization; condition; INC/DEC)
+// {
+//     // statement    3
+// }   
+
+// for(var i = 1;i<=10;i++)
+// {
+//     console.log("Hello World",i)
+// }
+
+
+//1. Find the Sum of N natural numbers n = 5 ==> 1+2+3+4+5 = 15
+// var sum = 0
+// for(var i = 1;i<=5;i++)
+// {
+//     sum = sum + i
+//     // console.log(i,sum)
+// }
+// console.log(sum)
+
+//2. Find the factorial of given number N=5 -> 1*2*3*4*5 = 120
+// var sum = 1
+// for(var i = 1;i<=10;i++)
+// {
+//     sum = sum * i
+//     console.log(i,sum)
+// }
+// console.log(sum)
