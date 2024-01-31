@@ -1,0 +1,173 @@
+
+//hoisting- moving lower level to higher level
+// console.log(a)
+// var a = 10
+// var a = 7
+// console.log(a)
+// output is 7
+
+// let a = 10
+// console.log(a)
+// but 
+// console.log(a)
+// let a = 1
+// the output is Error
+
+// re-assignment-updating in same memory
+// re-declaration-delete the old memory and creat a new one
+
+// let a = 5
+// a = 1 //re-assignment
+// let a = 7 //re-declaration
+// console.log(a)
+// so the out put is an error
+
+// var a = 9
+// a = 7 //re-assignment
+// var a = 5//re-declaration
+// console.log(a)
+// so the output is 5
+
+// differnce between var & let
+// var
+// 1. Hosting
+// 2. globle scop
+// 3. re-declaration is possible
+
+// let
+// 1. prevent Hosting
+// 2. local scop
+// 3. re-decralation is not possible
+
+// Array
+// Array always comes in square braket
+// Array stores the data in sequential order
+// let marks = [1,2,3,4,5]
+// console.log(marks)
+// then the output will be [1,2,3,4,5]
+
+// Array always consider 0 as a index position
+// for example
+// let a = [8,9,0,6,5]
+// console.log(0)
+// then output will be 8 because its situated at 0 place
+// and if we will run for 2 then the output will be 0
+// for ex 
+// console.log(a[2])
+
+// if u want to find total length of array statement
+// console.log(a.length)
+// then the output will be 5
+
+
+// let marks = [7,8,6,4,5,10,3,5,1,2]
+// for(let i = 0; i<marks.length;i++)
+// {
+//     console.log(marks[i])
+// }
+
+
+// let marks = [1,2,3,4,5]
+// console.log(marks)
+// then the output will be [1,2,3,4,5]
+
+// Array always consider 0 as a index position
+// for example
+// let a = [8,9,0,6,5]
+// console.log(0)
+// then output will be 8 because its situated at 0 place
+// and if we will run for 2 then the output will be 0
+// for ex 
+// console.log(a[2])
+
+// if u want to find total length of array statement
+// console.log(a.length)
+// then the output will be 5
+// let marks = [7,8,6,4,5,10,3,5,1,2]
+// for(let i = 0; i<marks.length;i++)
+// {
+//     console.log(marks[i])
+// }
+
+// find the sum and average of all the array elements
+// avg- round of to 2 decimal points
+// let marks = [7,8,6,4,5,10,3,5,1,2]
+// let sum = 0
+// for(let i = 0; i<marks.length;i++)
+// {
+//     sum = sum + marks[i]
+// }
+// console.log(sum)
+// let avg = sum / marks.length
+// console.log(avg.toFixed(2))
+
+// then the output of sum 51 and avg 5.10
+
+// find the greatest of all the numbers in array
+// let marks = [7,8,6,4,5,10,3,5,1,2]
+// let max = marks[0]
+// for(let i = 1; i < marks.length; i++)
+// {
+//     if(marks[i]>max)
+//         max = marks[i]
+// }
+// console.log(max)
+// then the output is 10
+
+
+// let a = [1,2,3,4,5,6,7,8,9]
+// a.push(10) //insert at end 
+// console.log(a)
+// then the output will be [1,2,3,4,5,6,7,8,9,10]
+// if we push
+// a.push(10,20,30)
+// then the output will be [1,2,3,4,5,6,7,8,9,10,20,30]
+// a.pop()//delete the end elelment
+// for the ex
+// let a = [1,2,3,4]
+// a.pop()
+// console.log(a)
+// then the output will be [1,2,3]
+// a.unshift(100,200,300)//insert at begining
+// console.log(a)
+// a.shift()//delete at the begining
+// console.log(a)
+
+
+// splice(startIndex)
+// splice(startIndex,deleteCount)
+// splice(startIndex,deleteCount, InsertItems)
+// let a = [1,2,3,4,5,6,7,8,9]
+// 1.
+// a.splice(5)
+// console.log(a)
+// then the output will be [1,2,3,4,5]
+// 2.
+// a.splice(5,1)
+// console.log(a)
+// then the output will be [1,2,3,4,5,7,8,9]
+// if
+// a.splice(5,3)
+// output will be [1,2,3,4,5,9]
+// 3.
+// a.splice(4,1,10)
+// console.log(a)
+// output will be [1,2,3,4,10,6,7,8,9]
+// if u want to add new value
+// a.splice(4,1,10,20,30)
+// then output will be [1,2,3,4,10,20,30,6,7,8,9]
+// if u dont want to delet any value then put 0 on deleteCount-a.splice(4,0,10,20)
+
+// let arr = ["Hello","all","welcome","to","guvi"]
+// console.log(arr.join(" "))
+// then the output will be - Hello all welcome to guvi
+// if u want to combined the sentence with _ then put _ between " "
+// console.log(arr.join("_"))
+// the output will be- Hello_all_welcome_to_guvi
+
+// let str = "why become a full stack developer"
+// let arr = str.split(" ")
+// console.log(arr.join("+"))
+// then output will be- why+become+a+full+stack+developer
+// split is used only in String
+// join are used only in Array
